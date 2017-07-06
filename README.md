@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # jihantorocr
 
 TODO: Write a description here
@@ -25,3 +26,7 @@ TODO: Write development instructions here
 ## Contributors
 
 - [[your-github-name]](https://github.com/[your-github-name]) Rubi Jihantoro - creator, maintainer
+=======
+# jihantoro.cr
+Super Simple Blog Written In Crystal
+>>>>>>> 20f2b7b99caef8d7e63145988c71ede7cf65c8d8
