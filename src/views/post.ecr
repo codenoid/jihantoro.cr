@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Rubi Jihantoro Official Site</title>
+	<link rel="stylesheet" href="/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+  <meta name="viewport" content="width=device-width">
+</head>
+<body>
+<div class="container">
+<span class="decor"></span>
+<nav>
+  <ul class="primary">
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a href="">Friends</a>
+    </li>
+    <li>
+      <a href="">About</a>
+    </li>
+    <li>
+      <a href="">Contact</a>
+    </li>
+  </ul>
+</nav>
+<div class="posts">
+  <% article.each_line do |line| %>
+  <% nd = line.split("(`+`)") %>
+  <% if nd[0] == id %>
+	<div class="item">
+		<img src="/images/<%= nd[2] %>" alt="">
+		<h1><%= nd[1] %></h1>
+    <div style="text-align: left;">
+      <%= nd[4] %>
+    </div>
+	</div>
+  <% end %>
+  <% end %>
+</div>
+</div>
+</body>
+</html>
