@@ -1,23 +1,25 @@
-<<<<<<< HEAD
 # jihantorocr
-
-TODO: Write a description here
+Superb Simple blog writter in crystal 
 
 ## Installation
 
-TODO: Write installation instructions here
-
+```
+git clone https://github.com/codenoid/jihantoro.cr
+cd jihantoro.cr
+crystal build --release src/jihantorocr.cr
+./jihantorocr
+```
 ## Usage
 
-TODO: Write usage instructions here
+just use it
 
 ## Development
 
-TODO: Write development instructions here
+More simple code
 
 ## Contributing
 
-1. Fork it ( https://github.com/[your-github-name]/jihantorocr/fork )
+1. Fork it ( https://github.com/codenoid/jihantorocr/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -25,8 +27,4 @@ TODO: Write development instructions here
 
 ## Contributors
 
-- [[your-github-name]](https://github.com/[your-github-name]) Rubi Jihantoro - creator, maintainer
-=======
-# jihantoro.cr
-Super Simple Blog Written In Crystal
->>>>>>> 20f2b7b99caef8d7e63145988c71ede7cf65c8d8
+- [codenoid](https://github.com/codenoid) Rubi Jihantoro - creator, maintainer
